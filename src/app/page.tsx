@@ -1,7 +1,11 @@
-import { css } from '@styled-system/css'
+import HomeLayout from 'src/components/HomeLayout'
 
 const Home = () => (
-  <div className={css({ fontSize: '2xl', fontWeight: 'bold' })}>Hello 🐼!</div>
+  <HomeLayout>
+    <u>Hello Panda</u>
+    {' '}
+    🐼!
+  </HomeLayout>
 )
 
 export default Home
